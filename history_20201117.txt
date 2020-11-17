@@ -184,3 +184,87 @@ rm test-mic.wav
 ll
 cp -r /home/dsc/.history  /home/git/
 cp ~/.history history_20201117.txt
+ll
+cp -r /home/dsc/.history  /home/git/history_hoy.txt
+cp ~/history_20201117.txt /home/git/history_hoy.txt
+cp -r ~/history_20201117.txt /home/git/history_hoy.txt
+cd git
+git status
+git add history_20201117.txt
+git commit -m "added history file"
+git push origin master
+git status
+history -i
+cd
+ll
+cd Data
+ll
+cd shell
+ll
+wc Text_example.txt
+wc Finn.txt
+cat Text_example.txt
+head -n 8 Text_example.txt
+head -n 6 Text_example.txt
+wc -w Text_example.txt
+wc -l Text_example.txt
+wc -m Text_example.txt
+echo "hola" | wc
+echo -n "hola" | wc
+cat Text_example.txt| wc
+cat Text_example.txt| wc -l
+ll
+cd ..
+ll
+cd airline_tickets
+ll
+cd ..
+cd opentraveldata
+ll
+tail -c -1k optd_aircraft.csv| wc
+head -c 1k optd_aircraft.csv | wc
+cd
+ls -lrt
+cd opentraveldata
+ll
+cd opentraveldata
+cd Data/opentraveldata
+ll
+lr
+ls
+ls -ss
+ls -S
+ll -S
+ll -S | head -n 1
+ll -S | head -n 2 | tail -n 1
+ll -S | head -n 2 | tail -n 1 > largest_file.txt
+ll
+cat largest_file.txt
+ll
+ls
+lr
+cd ..
+ll
+cd shell
+ll
+head -n 5 Finn.txt | wc -w
+head -n 3 Text_example.txt | cat
+head -n 3 Text_example.txt | cat -n
+head -n 3 Text_example.txt > Text_example2.txt
+cat Text_example2.txt
+cat -n Text_example.txt > Text_example2.txt
+cat Text_example2.txt
+cat Text_example.txt >> text_double.txt
+cat text_double.txt
+cd
+release
+cat /etc/os-release
+cd
+echo $(date)
+echo "This file was created by AnGodel on" $(date) > ejercicio.txt
+cat ejercicio.txt
+tail -n 20 $HISTFILE
+cd git
+ls -lrt
+cat ~/.history|grep cp
+cp $HISTFILE ~/git/history_20201117.txt
