@@ -1,0 +1,20 @@
+echo $(date)
+echo "This file was created by AnGodel on" $(date) > ejercicio.txt
+cat ejercicio.txt
+tail -n 20 $HISTFILE
+cd git
+ls -lrt
+cat ~/.history|grep cp
+cp $HISTFILE ~/git/history_20201117.txt
+cat history_20201117.txt
+git add history_20201117.txt
+git commit "history of the day updated"
+git commit -m "history of the day updated"
+git push origin master
+cd
+$HISTFILE
+cat /home/dsc/.history
+tail -n 20 $HISTFILE
+pwd
+ls
+tail -n 20 $HISTFILE > /home/dsc/git/last20hist.txt

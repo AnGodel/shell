@@ -268,3 +268,57 @@ cd git
 ls -lrt
 cat ~/.history|grep cp
 cp $HISTFILE ~/git/history_20201117.txt
+cat history_20201117.txt
+git add history_20201117.txt
+git commit "history of the day updated"
+git commit -m "history of the day updated"
+git push origin master
+cd
+$HISTFILE
+cat /home/dsc/.history
+tail -n 20 $HISTFILE
+pwd
+ls
+tail -n 20 $HISTFILE > /home/dsc/git/last20hist.txt
+cd ~/git
+ls
+locate ejercicio.txt
+find ejercicio.txt
+cd
+locate ejercicio.txt
+echo locate ejercicio.txt
+ls
+mv ejercicio.txt ~/git
+cd ~/git
+ls
+cd
+cd Data/opentraveldata
+ls
+wc -l optd_airlines.csv
+wc optd_aircraft.csv
+wc -l optd_aircraft.csv
+wc -w optd_aircraft.csv
+wc -m optd_aircraft.csv
+wc -l optd_aircraft.csv > ~/git/ejercicio7.txt
+cd
+cd git
+ls
+cd ~/Data/opentraveldata
+ls
+cd ..
+ls
+cd shell
+ls
+cat text_double.txt Text_example.txt
+ls
+cat Text_example2.txt
+wc -l Text_example2.txt
+tail -n 5 Text_example2.txt | head -n 2 > text_example_cut.txt
+cat text_example_cut.txt
+mv text_example_cut.txt ~/git/
+cd
+cd git
+ls
+cat /home/dsc/.history
+cp $HISTFILE ~/git/history_20201117.txt\
+
